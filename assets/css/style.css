@@ -7,6 +7,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    color:#3d576b;
 }
 
 /* header style */
@@ -24,8 +25,7 @@ h2 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: #3d576b;
-
+    font-size: 100%;
 }
 
 #menu {
@@ -34,6 +34,7 @@ h2 {
 }
 
 #menu a:link {
+    font-size: 60%;
     text-decoration: none;
     text-transform: uppercase;
     color: inherit;
@@ -63,9 +64,19 @@ h2 {
 
 #hero-cont {
     width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 #hero {
     width:100%;
     height: auto;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 80%;
+    text-align:center;
+    letter-spacing: 5px;
 }
