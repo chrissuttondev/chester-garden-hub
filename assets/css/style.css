@@ -5,10 +5,29 @@
 }
 
 body {
-font-family: 'Lato', sans-serif;
-font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 h2 {
     font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
 }
+
+#menu {
+    list-style: none;
+    padding: 5px;
+}
+
+
