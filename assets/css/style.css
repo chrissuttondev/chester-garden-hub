@@ -5,9 +5,11 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
+
+/* header style */
 
 header {
     display: flex;
@@ -16,18 +18,33 @@ header {
     align-items: center;
 }
 
-
-
 h2 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
+    color: #3d576b;
 
 }
 
 #menu {
     list-style: none;
     padding: 5px;
+}
+
+#menu a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+#menu a:hover {
+    color: #ebb9df;
+}
+
+#menu a:active {
+    text-decoration: underline;
 }
 
 
