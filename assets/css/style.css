@@ -53,12 +53,12 @@ h2 {
 
 /* hero */
 
-#hero-section {
+section {
     display: flex;
     justify-content: center;
 }
 
-#hero-cont {
+.content-container {
     width: 95vw;
     margin-bottom: 15px;
     display: flex;
@@ -66,17 +66,14 @@ h2 {
     align-content: center;
 }
 
-#hero {
+img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
-#tag-line {
-    margin-top: 3px;
-}
-
 h3 {
+    margin: 10px;
     font-size: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -87,7 +84,7 @@ h3 {
 .cta-btn {
     background-color: #393e41;
     color: white;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 7.5px;
     text-transform: uppercase;
     font-family: inherit;
@@ -100,21 +97,12 @@ h3 {
     background-color: #5d576b;
 }
 
-/* about-mission-why-join */
-
-.text-section {
-    width: 95vw;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
 p {
+    
     text-align: justify;
-    font-size: large;
     line-height: 180%;
-    margin: 20px;
-    padding-right: 3px;
+    margin-bottom: 20px;
 }
+
+
+
