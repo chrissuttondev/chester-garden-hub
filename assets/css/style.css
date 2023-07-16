@@ -104,5 +104,7 @@ p {
     margin-bottom: 20px;
 }
 
-
-
+footer {
+    background-color: #3d576b;
+    color: antiquewhite;
+}
