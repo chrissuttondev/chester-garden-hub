@@ -105,6 +105,7 @@ p {
 }
 
 footer {
-    background-color: #3d576b;
-    color: antiquewhite;
+    height: 200px;
+    background-color: #84828e;
+    color: white;
 }
