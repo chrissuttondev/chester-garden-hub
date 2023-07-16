@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    border: 0;
+    border: none;
 }
 
 body {
@@ -60,6 +60,7 @@ h2 {
 
 #hero-cont {
     width: 95vw;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -97,4 +98,23 @@ h3 {
 .cta-btn:active {
     color: #f9f9dc;
     background-color: #5d576b;
+}
+
+/* about-mission-why-join */
+
+.text-section {
+    width: 95vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+p {
+    text-align: justify;
+    font-size: large;
+    line-height: 180%;
+    margin: 20px;
+    padding-right: 3px;
 }
