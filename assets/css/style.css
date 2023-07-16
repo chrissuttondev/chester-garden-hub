@@ -8,7 +8,7 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: #3d576b;
-  
+
 }
 
 /* header style */
@@ -98,14 +98,45 @@ h3 {
 }
 
 p {
-    
+
     text-align: justify;
     line-height: 180%;
     margin-bottom: 20px;
 }
 
+/* footer */
 footer {
-    height: 200px;
-    background-color: #84828e;
+    background-color: #393e41;
     color: white;
+}
+
+/* used ideas from love running walk through project */
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icons {
+    list-style: none;
+}
+
+.social-icons>li {
+    display: inline;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 160%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
