@@ -39,14 +39,60 @@
                 <button class="cta-btn">Become a member</button>
             </div>
         </section>
+        <!-- coders coffee house form template -->
         <section id="sign-up">
-            <form action="chrissutdev@gmail.com" method="post">
+            <div>
+                <form action="chrissutdev@gmail.com" method="post">
+                    <fieldset>
+                        <legend>Join The Project</legend>
+                        <div>
+                            <label for="name-field">Name</label>
+                            <input id="name-field" type="email" name="email" placeholder="Your Name" required>
+                        </div>
+                        <div>
+                            <label for="email-field">Email</label>
+                            <input id="email-field" type="text" name="full_name" placeholder="Your Email" required>
+                        </div>
+                        <div>
+                            <label for="age">Age Group</label>
+                                <select id="age" name="age" required>
+                                    <option value="under-20">Under 20</option>
+                                    <option value="20s">20-29</option>
+                                    <option value="30s">30-39</option>
+                                    <option value="40s">40-49</option>
+                                    <option value="50s">50-59</option>
+                                    <option value="60+">60+</option>  
+                              </select>
+                        </div>
+                </fieldset>          
+                
                 <fieldset>
-                    <legend>Your Details</legend>
-                </fieldset>
+                        <div>
+                            <p> What are you most interested in doing at Chester
+                                Garden Hub? &#40;check all that apply&#41;
+                            </p>
+                            <div>
+                                <input type="checkbox" id="volutnteering" name="volutnteering">
+                                <label for="volutnteering">Volutnteering</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="membership" name="membership">
+                                <label for="membership">Membership</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="training-education" name="training-education">
+                                <label for="training-education">Training & Education</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="community-events" name="community-events">
+                                <label for="community-events">Community events</label>
+                            </div>
+                        </div>
 
-            </form>
+                    </fieldset>
 
+                </form>
+            </div>
         </section>
 
 
