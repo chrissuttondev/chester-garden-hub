@@ -180,27 +180,11 @@ form {
     
 }
 
-legend {
-    text-align: center;
-    font-size: 120%;
+#form {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ebb9df;
 }
 
-.form-label {
-    font-size: 120%;
-    letter-spacing: 2px;
-    margin: 2%;
-}
-
-.input-box {
-    border-style: groove;
-    border-radius: 2px;
-    margin: 2%;
-
-}
-
-fieldset {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-}
