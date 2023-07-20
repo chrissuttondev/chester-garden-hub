@@ -55,6 +55,33 @@ h1 {
 
 /* hero */
 
+/* #hero-img1 {
+    postion:;
+} */
+
+#hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#tag-line-prt1 {
+    background-color: #ebb9dfdb;
+    
+    position:absolute;
+    top: 0PX;
+    margin: 0;
+    width: 100%;
+}
+
+#tag-line-prt2 {
+    background-color: #ebb9dfdb;
+    position:absolute;
+    bottom: 10px;
+    margin: 0;
+    width: 100%;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -73,22 +100,6 @@ img {
     height: auto;
     margin-bottom: 10px;
 }
-
-#tag-line-prt1 {
-    background-color: rgba(255, 255, 255, 0.628);
-    position: fixed;
-    top: 80px;
-    padding: 0 30% 0 30%;
-
-}
-
-#tag-line-prt2 {
-    background-color: rgba(255, 255, 255, 0.628);
-    position: absolute;
-    top: 220px;
-
-}
-
 
 h2 {
     margin: 10px;
