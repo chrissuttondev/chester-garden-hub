@@ -174,3 +174,12 @@ footer p {
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
+form {
+    padding: 5%;
+    
+}
+
+legend {
+    text-align: center;
+}
