@@ -186,5 +186,13 @@ form {
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: #ebb9df;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+}
+
+.inputs {
+    margin: 5px;
 }
 
