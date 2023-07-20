@@ -26,7 +26,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 180%;
+    font-size: 160%;
 }
 
 #menu {
@@ -73,6 +73,22 @@ img {
     height: auto;
     margin-bottom: 10px;
 }
+
+#tag-line-prt1 {
+    background-color: rgba(255, 255, 255, 0.628);
+    position: fixed;
+    top: 80px;
+    padding: 0 30% 0 30%;
+
+}
+
+#tag-line-prt2 {
+    background-color: rgba(255, 255, 255, 0.628);
+    position: absolute;
+    top: 220px;
+
+}
+
 
 h2 {
     margin: 10px;
