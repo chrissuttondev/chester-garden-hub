@@ -71,22 +71,30 @@
         </section> 
         <section>
             <div class="content-container">
-                <div id="form">
-                    <form action="" method="post">
-                        <felidset>
-                            <legend>Your Details</legend>
-                                <div> 
-                                    <label class="inputs" for="name">Name</label>
-                                    <input class="inputs" id="name" type="text" name="full_name" placeholder="Your name" required>
-                                </div>
-                                <div>    
-                                    <label class="inputs" for="email">Email</label>
-                                    <input class="inputs" id="email" type="email" name="email" placeholder="Your email" required>
-                                </div>
-                        </felidset>
+                <div class="container">
+                    <form action="action_page.php">
+                        <legend>Join Us</legend>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+                
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email address..">
+                
+                        <label for="interest">What are you interested in doing at Chester Garden Hub?</label>
+                        <select id="interest" name="interest">
+                            <option value="volunteering">Volunteering</option>
+                            <option value="membership">Membership</option>
+                            <option value="membership&voluteering">Membership & Volunteering</option>
+                            <option value="other">Other</option>
+                        </select>
+                
+                        <label for="subject">Your Message</label>
+                        <textarea id="subject" name="subject" placeholder="Please tell us about what why you'd like to become involved with Chester Garden Hub.." style="height:200px"></textarea>
+                        <input type="submit" value="Submit">
+                
                     </form>
-
                 </div>
+                
             </div>
         </section>
 
