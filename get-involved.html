@@ -81,7 +81,8 @@
                         <input type="email" id="email" name="email" placeholder="Your email address..">
                 
                         <label for="interest">What are you interested in doing at Chester Garden Hub?</label>
-                        <select id="interest" name="interest">
+                        <select id="interest" name="interest" onfocus="this.size=4;" onblur="this.size=0;"
+                           onchange="this.size=1; this.blur()">
                             <option value="volunteering">Volunteering</option>
                             <option value="membership">Membership</option>
                             <option value="membership&voluteering">Membership & Volunteering</option>
