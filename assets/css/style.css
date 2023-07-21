@@ -13,6 +13,8 @@ body {
 
 /* header style */
 
+
+
 header {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -20,6 +22,21 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (min-width: 900px){
+    header {
+            width: 95vw;
+            margin: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+    #hero-img1 {
+        
+    }    
+
 }
 
 h1 {
@@ -82,8 +99,8 @@ h1 {
 
 section {
     display: flex;
-    justify-content: center;
-}
+    justify-content: center; 
+} 
 
 .content-container {
     width: 95vw;
