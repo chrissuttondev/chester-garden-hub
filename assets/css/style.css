@@ -233,6 +233,8 @@ legend {
         justify-content: space-between;
         align-items: baseline;
     }
+
+    /* hero */
       #hero-no-crop {
         display: none;
       }
@@ -241,16 +243,37 @@ legend {
             display:flex;
             flex-direction: column;
         }
-
+        
+        /* about */
         .about-container {
             width: 95vw;
-            display: grid;
-                }
-
-                
-        #potting {
-            width: 30%;
-            height: auto;
+            display:block;
+            
+        }
+                  
+        #p-about-1 {
+            width: 40%;
+            display:inline-block;
+           
+            
         }
 
+        #potting {
+            width: 50%;
+            height: auto;
+            display:inline-block;
+            margin-bottom: 65px;
+            margin-left: 55px;
+           
+        }
+
+        #p-mission {
+            width: 40%;
+            
+        }
+
+        #woman-polyt {
+            width: 50%;
+            
+        }
 }
