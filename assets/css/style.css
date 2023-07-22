@@ -239,5 +239,6 @@ legend {
     
         #hero-cropped {
             display:flex;
+            flex-direction: column;
         }
 }
