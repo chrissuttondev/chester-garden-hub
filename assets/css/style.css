@@ -58,7 +58,7 @@ h1 {
 /* hero */
 
 
-#hero {
+.hero {
     position: relative;
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ h1 {
    display: none;
 }
 
-#tag-line-prt1 {
+.tag-line-prt1 {
     background-color: #3f5543ca;
     color:white;
     position:absolute;
@@ -77,7 +77,7 @@ h1 {
     width: 100%;
 }
 
-#tag-line-prt2 {
+.tag-line-prt2 {
     color: #323639;
     background-color: #ebb9dfdb;
     position:absolute;
@@ -91,7 +91,7 @@ section {
     justify-content: center; 
 } 
 
-.content-container {
+.content-container, .hero-container, .about-container, .mission-container {
     width: 95vw;
     display: flex;
     flex-direction: column;
@@ -241,4 +241,16 @@ legend {
             display:flex;
             flex-direction: column;
         }
+
+        .about-container {
+            width: 95vw;
+            display: grid;
+                }
+
+                
+        #potting {
+            width: 30%;
+            height: auto;
+        }
+
 }
