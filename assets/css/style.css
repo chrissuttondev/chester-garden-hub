@@ -72,7 +72,7 @@ h1 {
     background-color: #3f5543ca;
     color: white;
     position: absolute;
-    top: 0PX;
+    top: 10px;
     margin: 0;
     width: 100%;
 }
@@ -107,6 +107,7 @@ img {
     height: auto;
     margin-bottom: 10px;
     margin-top: 10px;
+  
 }
 
 h2 {
@@ -125,6 +126,10 @@ p {
     line-height: 180%;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.p-about-2a {
+    display: none;
 }
 
 /* footer */
@@ -240,40 +245,79 @@ legend {
     }
 
     /* hero */
-    #hero-no-crop {
+        #hero-no-crop {
+            display: none;
+        }
+
+        #hero-cropped {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        /* about */
+        
+    .a-containter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    
+    }
+
+    .p1 {
+        width: 50%;
+        height: auto;
+
+    }
+
+    .potting-pic {
+        width: 35%;
+        height: auto;
+    }
+
+    .potting {
+        margin-top: 18px;
+        border: 5px;
+        border-style:solid;
+        border-color:#ebb9df;
+        box-shadow: #3236399a;
+    }
+    
+    .p-about-2 {
+        width:94%;
+    }
+
+    .m-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .p-mission-1 {
+        width: 50%;
+    }
+
+    .woman-polyt {
+        width: 40%;
+        height: auto;
+    }
+
+    .polyt-image {
+        margin-top: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px){
+
+    .p-about-2 {
         display: none;
     }
 
-    #hero-cropped {
+    .p-about-2a {
         display: flex;
-        flex-direction: column;
     }
-
-    /* about */
-     
-.a-containter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-   
 }
-
-.p1 {
-    width: 50%;
-    height: auto;
-
-}
-
-.potting-pic {
-    width: 40%;
-    height: auto;
-}
-
-.potting {
-    margin-top: 20px;
-}
-
-}
-
 
