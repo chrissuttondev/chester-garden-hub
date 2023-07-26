@@ -119,6 +119,15 @@ h2 {
     line-height: 200%;
 }
 
+h3 {
+    margin: 10px;
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 200%;
+}
+
 
 p {
     font-size: 120%;
