@@ -232,7 +232,7 @@ legend {
 }
 
 /* screens 768px min-width */
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     /* header */
     header {
@@ -268,6 +268,10 @@ legend {
 
     }
 
+    .p-about-2 {
+        width: 90%;
+    }
+
     .potting-pic {
         width: 35%;
         height: auto;
@@ -277,6 +281,7 @@ legend {
         margin-top: 18px;
         border: 5px;
         border-style: solid;
+        border-color: #ebb9df;
 
     }
 
@@ -297,6 +302,9 @@ legend {
 
     .polyt-image {
         margin-top: 20px;
+        border: 5px;
+        border-style: solid;
+        border-color: #ebb9df;
     }
 
     .photo-gallery {
