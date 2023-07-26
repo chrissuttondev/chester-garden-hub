@@ -231,6 +231,14 @@ legend {
     border-radius: 4px;
 }
 
+#back-to-home {
+    text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* screens 768px min-width */
 @media screen and (min-width: 768px) {
 
