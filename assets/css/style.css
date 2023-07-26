@@ -140,7 +140,7 @@ footer {
     color: white;
 }
 
-/* used ideas from love running walk through project */
+/* used icons from love running walk through project */
 
 .footer-items {
     display: flex;
@@ -170,60 +170,6 @@ footer p {
     letter-spacing: 4px;
     text-transform: uppercase;
 }
-
-/* photo gallerey https: //medium.com/@miguelznunez/how-to-create-a-responsive-image-grid-gallery-with-html-css-flexbox-1a4ea78f1ab3*/
-
-* {
-    box-sizing: border-box;
-}
-
-
-.header {
-    text-align: center;
-    padding: 32px;
-}
-
-.row {
-    display: -ms-flexbox;
-    /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap;
-    /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    -ms-flex: 25%;
-    /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
 
 /* form section https: //www.w3schools.com/howto/howto_css_contact_form.asp */
 
@@ -286,11 +232,11 @@ legend {
 }
 
 /* screens 768px min-width */
-@media only screen and (min-width: 700px) {
+@media  screen and (min-width: 768px) {
 
     /* header */
     header {
-        width: 95vw;
+       width: 95vw;
         margin: 30px;
         display: flex;
         flex-direction: row;
@@ -308,15 +254,11 @@ legend {
         flex-direction: column;
     }
 
-
     /* about */
-
-
-    .a-containter {
+    .a-container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-
 
     }
 
@@ -338,11 +280,7 @@ legend {
 
     }
 
-    .p-about-2 {
-        width: 90%;
-    }
-
-    .m-container {
+     .m-container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -367,8 +305,7 @@ legend {
 
 }
 
-
-@media only screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 
     body {
         font-size: 130%;
@@ -385,7 +322,7 @@ legend {
 
 }
 
-@media only screen and (min-width: 1350px) {
+@media screen and (min-width: 1350px) {
     .p-about-2 {
         display: none;
     }
@@ -395,7 +332,7 @@ legend {
     }
 }
 
-@media only screen and (min-width: 1500px) {
+@media screen and (min-width: 1500px) {
 
     body {
         font-size: 150%;
