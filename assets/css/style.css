@@ -171,6 +171,24 @@ footer p {
     text-transform: uppercase;
 }
 
+/* photo gallerey https: //medium.com/@miguelznunez/how-to-create-a-responsive-image-grid-gallery-with-html-css-flexbox-1a4ea78f1ab3*/
+
+.gallery-container {
+     
+}
+
+.photo-gallery {
+
+}
+
+.col {
+
+}
+
+.picture {
+
+}
+
 /* form section https: //www.w3schools.com/howto/howto_css_contact_form.asp */
 
 input[type=text],
