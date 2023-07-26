@@ -36,6 +36,10 @@ h1 {
     padding: 5px;
 }
 
+li {
+    display: inline;
+    color:#323639;
+}
 
 
 #menu a:link {
@@ -48,7 +52,7 @@ h1 {
 }
 
 #menu a:hover {
-    color: #ebb9df;
+    color:#3f5543;
 }
 
 #menu a:active {
@@ -320,16 +324,6 @@ legend {
     body {
         font-size: 130%;
     }
-
-    h1 {
-        font-size: 180%;
-    }
-
-    h2 {
-        font-size: 150%;
-    }
-
-
 }
 
 @media screen and (min-width: 1350px) {
