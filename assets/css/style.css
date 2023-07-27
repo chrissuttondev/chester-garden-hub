@@ -248,6 +248,22 @@ legend {
     margin-bottom: 30px;
 }
 
+.scroll-top {
+    background-color:#ebb9df;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+}
+#back-to-top {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+  html {
+      scroll-behavior: smooth;
+  }
+
 /* screens 768px min-width */
 @media screen and (min-width: 768px) {
 
