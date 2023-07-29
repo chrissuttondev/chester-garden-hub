@@ -13,8 +13,6 @@ body {
 
 /* header style */
 
-
-
 header {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -344,7 +342,7 @@ legend {
 
     /* our garden page */
 
-        .garden-intro {
+        .garden-intro-sum {
             width: 94%;
         }
       
