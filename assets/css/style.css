@@ -318,7 +318,7 @@ legend {
         border-color: #ebb9df;
 
     }
-
+     /* our mission section */
      .m-container {
         display: flex;
         flex-direction: row;
@@ -342,20 +342,26 @@ legend {
         border-color: #ebb9df;
     }
 
+    /* our garden page */
 
+        .garden-intro {
+            width: 94%;
+        }
       
+    /* polly tunnel section */
+
        .p-container {
          display: flex;
-         flex-direction: row;
-         justify-content: space-evenly;
+         flex-direction: column;
+         align-items: center;
        }
 
        .p-polly {
-        width: 50%;
+        width: 94%;
        }
 
        .polly-pic {
-            width: 40%;
+            width: 50%;
             height:auto;
        }
         .pollytunnel {  
@@ -365,7 +371,80 @@ legend {
             border-radius: 5px;
             border-color: #ebb9df;
         }
+        
+        /* greenhouse section */
+            .greenhouse-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
 
+            .p-greenhouse {
+                width: 56%;
+            }
+
+            .img-greenhouse {
+                width: 35%;
+                height: auto;
+            }
+
+            .greenhouse {
+                margin-top: 18px;
+                border: 5px;
+                border-style: solid;
+                border-radius: 5px;
+                border-color: #ebb9df;
+            }
+
+          /* raised bed section */
+
+            .raised-bed {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+
+            .p-raised-beds {
+                width: 56%;
+            }
+
+            .img-beds{
+                width: 35%;
+                height: auto;
+            }
+
+            .raised-pic {
+                margin-top: 18px;
+                border: 5px;
+                border-style: solid;
+                border-radius: 5px;
+                border-color: #ebb9df;
+            }
+
+            /* fresh produce section */
+        
+                .produce-container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                }
+        
+                .p-fresh-prooduce {
+                    width: 56%;
+                }
+        
+                .img-produce {
+                    width: 35%;
+                    height: auto;
+                }
+        
+                .produce {
+                    margin-top: 18px;
+                    border: 5px;
+                    border-style: solid;
+                    border-radius: 5px;
+                    border-color: #ebb9df;
+                }
 }
 
 @media screen and (min-width: 1000px) {
