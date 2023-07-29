@@ -342,9 +342,29 @@ legend {
         border-color: #ebb9df;
     }
 
-    .photo-gallery {
-        flex-direction: column;
-    }
+
+      
+       .p-container {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+       }
+
+       .p-polly {
+        width: 50%;
+       }
+
+       .polly-pic {
+            width: 40%;
+            height:auto;
+       }
+        .pollytunnel {  
+            margin-top: 18px;
+            border: 5px;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: #ebb9df;
+        }
 
 }
 
