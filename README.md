@@ -41,12 +41,17 @@ User Stories:
 ## Visual Design
 
 ### Wireframes
-
-
-
-
+<img src="https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/aae26181-26c4-415b-bc6e-f6260767e953" alt="chester garden hub wireframe examples" width=50% height="auto">
 
 ### Font
 - The Oswald font was used due to its attractive appearance, easy readability, and suitability for headings
+
+### Icons
+- The website utilizes icons from the Font Awesome icon library, specifically in the footer section. These icons serve as clickable links, directing users to the respective 
+  social media pages.
+
+### Colours
+Chester Garden Hub's design is minimalist, with garden images providing color and vibrancy. The color scheme includes green for nature and tranquility, pink for vibrancy and optimism, and dark gray for contrast and stability.
+
 
   
