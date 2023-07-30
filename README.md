@@ -64,20 +64,6 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
 
     <ul>
     <li><details>
-    <summary><a href="bugs"></a></summary>
-
-    - [Unfixed-Bugs](#unfixed-bugs)
-    - [Challenges faced ](#challenges-faced)
-    
-    </details></li>
-    </ul>
-</details>
-
-4. <details open>
-    <summary><a href="#bugs">Bugs</a></summary>
-
-    <ul>
-    <li><details>
     <summary><a href="#issues-and-fixes">Issues and Fixes </a></summary>
 
     - [Unfixed-Bugs](#unfixed-bugs)
