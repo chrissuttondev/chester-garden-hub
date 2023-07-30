@@ -84,10 +84,10 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - Blog Section: Creating a blog section to post content on gardening tips, advice, and updates about Chester Garden Hub.
 
 ## Validator Testing
-- Html Code was passed through W3C official validator. No errors returned.
-- CSS Code was passed through official Jigsaw validator. No errors returned.
+- Html Code was passed through W3C official validator. No errors were returned.
+- CSS Code was passed through the Jigsaw official validator. No errors were returned.
 
-## Unfixed Bugs
+## Unfixed Bugs / Challenges Faced
 - There a no unfixed bugs in the project.
 
 ## Fixed Bugs
