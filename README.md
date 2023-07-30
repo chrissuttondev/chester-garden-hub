@@ -27,6 +27,26 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
     </details></li>
     </ul>
 </details>
+2. <details open>
+    <summary><a href="#features">Features</a></summary>
+
+    - [Header](#header)
+    - [User Goals](#user-goals)
+    - [Goals Reached](#goals-reached)
+    - [Project Goals](#project-goals)
+    - [User Stories](#user-stories)
+    </details></li>
+
+    <li><details>
+    <summary><a href="#visual-design">Visual Design</a></summary>
+
+    - [Wireframes](#wireframes)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colors](#colors)
+    </details></li>
+    </ul>
+</details>
 
 ## UX
 ### Goals
