@@ -165,7 +165,7 @@ To deploy the site to GitHub Pages:
 Live link to the website https://chrissuttondev.github.io/chester-garden-hub/index.html
 
 # Contact
- -chrissutton1789@gmail.com 
+ chrissutton1789@gmail.com 
 
 
 
