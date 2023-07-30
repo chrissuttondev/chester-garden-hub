@@ -177,8 +177,8 @@ To address this issue, a solution was implemented by adding container divs withi
 
 ![code-snippet-after-additional-divs](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/57b0e321-1955-46ee-a841-023aeb68dd80)
 
-## Technologies Used
-
+## Technologoy
+### Technologies Used
 ### Languages
 - HTML: Markup language for creating the website's structure.
 - CSS: Styling language to design the website's appearance.
