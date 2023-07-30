@@ -45,7 +45,21 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
     </ul>
 </details>
 
-3 <a href="#validator-testing">Validator Testing</a>    
+2. <details open>
+    <summary><a href="#features">Features</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="#validator-settings">Validator Testing</a></summary>
+
+    - [HTML](html)
+    - [CSS](#css)
+    
+    </details></li>
+    </ul>
+</details>
+
+
 
 ## UX
 ## Goals
@@ -129,14 +143,15 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - Blog Section: Creating a blog section to post content on gardening tips, advice, and updates about Chester Garden Hub.
 
 ## Validator Testing
+### HTML
 - Html Code was passed through W3C official validator. No errors were returned.
+### CSS
 - CSS Code was passed through the Jigsaw official validator. No errors were returned.
 
-## Unfixed Bugs
+## Bugs
+### Unfixed Bugs
 - There are no unfixed bugs in the project.
-
-## Fixed Bugs 
-
+### Fixed Bugs 
 ### Challenges Faced 
 The site was designed with a mobile-first approach, starting with a screen width of 320 pixels. CSS Flexbox was utilized to control element layout, with a vertical column structure for smaller screens and a combination of vertical and horizontal layouts for larger screens.
 
@@ -170,7 +185,7 @@ To address this issue, a solution was implemented by adding container divs withi
 
 ## Credits
 
-### Love Running Walk Through Project:
+### Styling
 - The styling for the logo section of the project was inspired by the <a href="https://code-institute-org.github.io/love-running-2.0/index.html"> Love Running website.</a>
    Oswald font and letter spacing were used to achieve the typography style.
 
