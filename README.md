@@ -50,7 +50,7 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
 
     <ul>
     <li><details>
-    <summary><a href="#validator-settings">Validator Testing</a></summary>
+    <summary><a href="#validator-testing">Validator Testing</a></summary>
 
     - [HTML](#html)
     - [CSS](#css)
@@ -59,6 +59,33 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
     </ul>
 </details>
 
+4. <details open>
+    <summary><a href="#bugs">Bugs</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="bugs"></a></summary>
+
+    - [Unfixed-Bugs](#unfixed-bugs)
+    - [Challenges faced ](#challenges-faced)
+    
+    </details></li>
+    </ul>
+</details>
+
+4. <details open>
+    <summary><a href="#bugs">Bugs</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="#issues-and-fixes">Issues and Fixes </a></summary>
+
+    - [Unfixed-Bugs](#unfixed-bugs)
+    - [Challenges faced ](#challenges-faced)
+    
+    </details></li>
+    </ul>
+</details>
 
 
 ## UX
@@ -150,9 +177,9 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - CSS Code was passed through the Jigsaw official validator. No errors were returned.
 
 ## Bugs
+### Issues and Fixes
 ### Unfixed Bugs
 - There are no unfixed bugs in the project.
-### Fixed Bugs 
 ### Challenges Faced 
 The site was designed with a mobile-first approach, starting with a screen width of 320 pixels. CSS Flexbox was utilized to control element layout, with a vertical column structure for smaller screens and a combination of vertical and horizontal layouts for larger screens.
 
