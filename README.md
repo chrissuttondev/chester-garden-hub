@@ -72,17 +72,8 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
     </details></li>
     </ul>
 </details>
-4. <details open>
+5. <details open>
     <summary><a href="#technologies-used">Technologies Used</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#languages">Languages</a></summary>
-    </details></li>
-    <li><details>
-    <summary><a href="#libraries">Libraries</a></summary>
-    </details></li>
-    </ul>
 </details>
 
 
