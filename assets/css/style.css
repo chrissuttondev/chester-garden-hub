@@ -286,7 +286,7 @@ legend {
     }
 
     /* about */
-    .a-container {
+    .a-container .m-container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -317,11 +317,7 @@ legend {
 
     }
      /* our mission section */
-     .m-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+     .m-container
 
     .p-mission-1 {
         width: 50%;
