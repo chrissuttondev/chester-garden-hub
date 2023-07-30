@@ -83,14 +83,14 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - Participant Stories and Sound Bites: Including stories or short quotes from participants to provide insight into the potential impact of being involved in the project.
 - Blog Section: Creating a blog section to post content on gardening tips, advice, and updates about Chester Garden Hub.
 
-### Validator Testing
+## Validator Testing
 - Html Code was passed through W3C official validator. No errors returned.
 - CSS Code was passed through official Jigsaw validator. No errors returned.
 
-### Unfixed Bugs
+## Unfixed Bugs
 - There a no unfixed bugs in the project.
 
-### Fixed Bugs
+## Fixed Bugs
 The site was designed with a mobile-first approach, starting with a screen width of 320 pixels. CSS Flexbox was utilized to control element layout, with a vertical column structure for smaller screens and a combination of vertical and horizontal layouts for larger screens.
 
 However, when applying a media query to change the flex-direction property from column to row for the header section, everything worked as expected. But in the about us and our mission sections, elements like headings, paragraphs, and images were not displaying as intended. They appeared on a single line and were squeezed together.
@@ -101,7 +101,9 @@ To address this issue, a solution was implemented by adding container divs withi
 
 ![code-snippet-after-additional-divs](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/57b0e321-1955-46ee-a841-023aeb68dd80)
 
-### Technologies Used:
+## Technologies Used:
+
+### Languages
 - HTML: Markup language for creating the website's structure.
 - CSS: Styling language to design the website's appearance.
 
@@ -114,10 +116,46 @@ To address this issue, a solution was implemented by adding container divs withi
 - CodeAnywhere: Chosen as the development environment for the project.
 
 ### Additional Tools
-- <a href="https://inkscape.org/" target="blank">Inkscape:</a> Used for creating wireframes, and assisting in the website's design process.
-- Favicon Generator: Employed to generate the favicon for the website.
-- Coolors: Utilized to create the color scheme used in the project.
-- https://techsini.com/multi-mockup/index.php
+- <a href="https://inkscape.org/">Inkscape:</a> Used for creating wireframes, and assisting in the website's design process.
+- <a href="https://www.favicon-generator.org/">Favicon Generator:</a> Employed to generate the favicon for the website.
+- <a href="https://coolors.co/"> Coolors:</a> Utilized to create the color scheme used in the project.
+- <a href="https://techsini.com/multi-mockup/index.php">Mulit-Mock Up</a> to generate images of site on variuos devices.
+
+## Credits
+
+### Love Running Walk Through Project:
+- The styling for the logo section of the project was inspired by the <a href="https://code-institute-org.github.io/love-running-2.0/index.html"> Love Running website.</a>
+   Oswald font and letter spacing were used to achieve the typography style.
+
+### Code
+- The form section of the website uses code from the W3Schools website: https://www.w3schools.com/howto/howto_css_contact_form.asp
+- The code was modified and restyled to suit the specific needs and design of the project.
+
+### Media
+- Images used on the site were sourced from Unsplash and Pexels.
+- Unsplash collection link: https://unsplash.com/collections/9165A2aJsPc/garden-hub
+- Pexels collection link:  https://www.pexels.com/collections/garden-hub-exztcbl/
+
+## Deployment
+
+To deploy the site to GitHub Pages:
+
+- Go to the repository's "Settings" tab.
+- Scroll to the "Pages" section.
+- Choose "Deploy from branch" in the "Source" dropdown.
+- Select the "main" branch.
+- Save and refresh the page.
+- The site link displayed at the top.
+
+Live link to the website https://chrissuttondev.github.io/chester-garden-hub/index.html
+
+
+
+
+
+
+
+
   
 
 
