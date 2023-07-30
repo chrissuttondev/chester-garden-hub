@@ -114,7 +114,7 @@ To address this issue, a solution was implemented by adding container divs withi
 - CodeAnywhere: Chosen as the development environment for the project.
 
 ### Additional Tools
-- Inkscape: Used for creating wireframes, and assisting in the website's design process.
+- <a href="https://inkscape.org/" target="blank">Inkscape:</a> Used for creating wireframes, and assisting in the website's design process.
 - Favicon Generator: Employed to generate the favicon for the website.
 - Coolors: Utilized to create the color scheme used in the project.
 - https://techsini.com/multi-mockup/index.php
