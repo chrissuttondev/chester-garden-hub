@@ -3,80 +3,22 @@
 
 Chester Garden Hub is a site that aims to inform people and encourage them to become involved with a community garden project based in Chester, UK. The site will be targeted toward people in the Chester area who have an interest in gardening, the environment, and their local community. It will be of value to the target demographic by providing them with information on the garden project, details on how they can get involved, and a contact form where they can submit an expression of interest.
 # Table of Contents
-1. <details open>
-    <summary><a href="#ux">UX</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#goals">Goals</a></summary>
-
-    - [Visitor Goals](#visitor-goals)
-    - [Project Goals](#project-goals)
-    - [User Stories](#user-stories)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#visual-design">Visual Design</a></summary>
-
-    - [Wireframes](#wireframes)
-    - [Fonts](#fonts)
-    - [Icons](#icons)
-    - [Colors](#colors)
-    </details></li>
-    </ul>
-</details>
-
-2. <details open>
-    <summary><a href="#features">Features</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#site-elements">Site Elements</a></summary>
-
-    - [Header](#header)
-    - [Hero](#hero)
-    - [About Us](#about-us)
-    - [Our Mission](#our-mission)
-    - [Footer](#footer)
-    - [Our Garden](#our-garden)
-    - [Get Involved](#get-involved) 
-    - [Additional Features](#additional-features) 
-    </details></li>
-    </ul>
-</details>
-
-3. <details open>
-    <summary><a href="#testing">Testing</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#validator-testing">Validator Testing</a></summary>
-
-    - [HTML](#html)
-    - [CSS](#css)
-    
-    </details></li>
-    </ul>
-</details>
-
-4. <details open>
-    <summary><a href="#bugs">Bugs</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#issues-and-fixes">Issues and Fixes </a></summary>
-
-    - [Unfixed-Bugs](#unfixed-bugs)
-    - [Challenges faced ](#challenges-faced)
-    
-    </details></li>
-    </ul>
-</details>
+1.<a href="#ux">UX</a>
+<br><br>
+2.<a href="#features">Features</a>
+<br><br>
+3.<a href="#bugs">Bugs</a>
+<br><br>
 5.<a href="#technologies-used">Technologies Used</a>
+<br><br>
+6.<a href="#credits">Credits</a>
+<br><br>
+7.<a href="#deployment">Deployment</a>
+<br><br>
+8.<a href="#contact">Contact</a>
 
+# UX
 
-## UX
-## Goals
 ### Visitor Goals
 Target Audience 
 - Gardening and food-growing enthusiasts
@@ -122,7 +64,7 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 ![coolors](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/4076e9af-29d0-4b22-a85d-a5764627b5d1)
 
 # Features
-## Site Elements
+
 ### Header
  - The responsive header, present on every page of the site, includes a logo and site navigation menu. 
  - The menu provides links to the Home, Our Garden, and Get Involved pages, ensuring smooth and easy navigation between pages without relying on browser back buttons.
@@ -156,18 +98,15 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - Participant Stories and Sound Bites: Including stories or short quotes from participants to provide insight into the potential impact of being involved in the project.
 - Blog Section: Creating a blog section to post content on gardening tips, advice, and updates about Chester Garden Hub.
 
-## Testing
-### Validator Testing
-### HTML
+# Testing
+## Validator Testing
 - Html Code was passed through W3C official validator. No errors were returned.
-### CSS
 - CSS Code was passed through the Jigsaw official validator. No errors were returned.
 
-## Bugs
-### Issues and Fixes
+# Bugs
 ### Unfixed Bugs
 - There are no unfixed bugs in the project.
-### Challenges Faced 
+### Fixed Issues / Challenges Faced 
 The site was designed with a mobile-first approach, starting with a screen width of 320 pixels. CSS Flexbox was utilized to control element layout, with a vertical column structure for smaller screens and a combination of vertical and horizontal layouts for larger screens.
 
 However, when applying a media query to change the flex-direction property from column to row for the header section, everything worked as expected. But in the about us and our mission sections, elements like headings, paragraphs, and images were not displaying as intended. They appeared on a single line and were squeezed together.
@@ -178,8 +117,7 @@ To address this issue, a solution was implemented by adding container divs withi
 
 ![code-snippet-after-additional-divs](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/57b0e321-1955-46ee-a841-023aeb68dd80)
 
-## Technologoy
-### Technologies Used
+# Technologies Used
 ### Languages
 - HTML: Markup language for creating the website's structure.
 - CSS: Styling language to design the website's appearance.
@@ -198,7 +136,7 @@ To address this issue, a solution was implemented by adding container divs withi
 - <a href="https://coolors.co/"> Coolors:</a> Utilized to create the color scheme used in the project.
 - <a href="https://techsini.com/multi-mockup/index.php">Mulit-Mock Up</a> to generate images of site on variuos devices.
 
-## Credits
+# Credits
 
 ### Styling
 - The styling for the logo section of the project was inspired by the <a href="https://code-institute-org.github.io/love-running-2.0/index.html"> Love Running website.</a>
@@ -213,7 +151,7 @@ To address this issue, a solution was implemented by adding container divs withi
 - Unsplash collection link: https://unsplash.com/collections/9165A2aJsPc/garden-hub
 - Pexels collection link:  https://www.pexels.com/collections/garden-hub-exztcbl/
 
-## Deployment
+# Deployment
 
 To deploy the site to GitHub Pages:
 
