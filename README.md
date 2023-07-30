@@ -46,7 +46,7 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
 </details>
 
 3. <details open>
-    <summary><a href="#testing">testing</a></summary>
+    <summary><a href="#testing">Testing</a></summary>
 
     <ul>
     <li><details>
@@ -142,7 +142,8 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - Participant Stories and Sound Bites: Including stories or short quotes from participants to provide insight into the potential impact of being involved in the project.
 - Blog Section: Creating a blog section to post content on gardening tips, advice, and updates about Chester Garden Hub.
 
-## Validator Testing
+## Testing
+### Validator Testing
 ### HTML
 - Html Code was passed through W3C official validator. No errors were returned.
 ### CSS
