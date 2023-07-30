@@ -25,6 +25,25 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
     </details></li>
     </ul>
 </details>
+
+2. <details open>
+    <summary><a href="#features">Features</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="#site-elements">Site Elements</a></summary>
+
+    - [Header](#header)
+    - [Hero](#hero)
+    - [About Us](#about-us)
+    - [Our Mission](#our-mission)
+    - [Footer](#footer)
+    - [Our Garden](#our-garden)
+    - [Get Involved](#get-involved) 
+    - [Additional Features](#additional-features) 
+    </details></li>
+    </ul>
+</details>
     
 
 ## UX
@@ -94,17 +113,16 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - Includes social media links to Chester Garden Hub's accounts.
 - Offers users the opportunity to follow the project on social media.
 
-### What's in The Garden Section:
+### Our Garden
 - Provides an overview and images of garden facilities.
 - Explains the purposes and features of different garden parts.
 
-### Get Involved Page
+### Get Involved 
 - Provides info on project membership and volunteer opportunities.
 - Features a responsive contact form for expressing interest.
 - Includes validation and asks for the user's name and email address.
 
-## Additonal FeatureS
-### Features left to implement in the future
+### Additional Features
 - Time Table of Events: Adding a timetable of events to inform users about upcoming meetings and activities.
 - Participant Stories and Sound Bites: Including stories or short quotes from participants to provide insight into the potential impact of being involved in the project.
 - Blog Section: Creating a blog section to post content on gardening tips, advice, and updates about Chester Garden Hub.
