@@ -2,65 +2,24 @@
 ![chester-Garden-Hub-devices](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/63c2c643-e109-4155-b2ea-6b9177b46ebb)
 
 Chester Garden Hub is a site that aims to inform people and encourage them to become involved with a community garden project based in Chester, UK. The site will be targeted toward people in the Chester area who have an interest in gardening, the environment, and their local community. It will be of value to the target demographic by providing them with information on the garden project, details on how they can get involved, and a contact form where they can submit an expression of interest.
-## Table of Contents
-1. <details open>
-    <summary><a href="#ux">UX</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#goals">Goals</a></summary>
-
-    - [Target Audience ](#target-audience)
-    - [User Goals](#user-goals)
-    - [Goals Reached](#goals-reached)
-    - [Project Goals](#project-goals)
-    - [User Stories](#user-stories)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#visual-design">Visual Design</a></summary>
-
-    - [Wireframes](#wireframes)
-    - [Fonts](#fonts)
-    - [Icons](#icons)
-    - [Colors](#colors)
-    </details></li>
-    </ul>
-</details>
-2. <details open>
-    <summary><a href="#features">Features</a></summary>
-
-    - [Header](#header)
-    - [User Goals](#user-goals)
-    - [Goals Reached](#goals-reached)
-    - [Project Goals](#project-goals)
-    - [User Stories](#user-stories)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#visual-design">Visual Design</a></summary>
-
-    - [Wireframes](#wireframes)
-    - [Fonts](#fonts)
-    - [Icons](#icons)
-    - [Colors](#colors)
-    </details></li>
-    </ul>
-</details>
+# Table of Contents
+<summary><a href="#ux">UX</a></summary>
 
 ## UX
-### Goals
-### Target Audience 
+## Goals
+### Visitor Goals
+
+Target Audience 
 - Gardening and food-growing enthusiasts
 - Volunteers seeking opportunities
 - Community-minded individuals
 
-### User Goals
+User Goals:
 - Overview of Chester Community Garden Hub
 - View project facilities' images
 - Learn about involvement opportunities
 
-### Goals Reached
+Chester Garden Hub achieves these goals with:
 - Impactful hero image and tagline on the homepage.
 - Brief "About Us" section explaining the project's start.
 - "Our Mission" section outlining project aspirations.
@@ -93,8 +52,8 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 
 ![coolors](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/4076e9af-29d0-4b22-a85d-a5764627b5d1)
 
-## Features
-
+# Features
+## Site Elements
 ### Header
  - The responsive header, present on every page of the site, includes a logo and site navigation menu. 
  - The menu provides links to the Home, Our Garden, and Get Involved pages, ensuring smooth and easy navigation between pages without relying on browser back buttons.
@@ -104,8 +63,10 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - The primary objective is to convey to the user that this is a community project with 
   immense potential and that they can actively participate and get involved.
 
-### About Us / Mission Sections:
+### About Us
 - "About Us" gives the project's background and origin.
+
+### Our Mission
 - "Our Mission" details the project's goals and aspirations.
 
 ### Footer
@@ -121,6 +82,7 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 - Features a responsive contact form for expressing interest.
 - Includes validation and asks for the user's name and email address.
 
+## Additonal FeatureS
 ### Features left to implement in the future
 - Time Table of Events: Adding a timetable of events to inform users about upcoming meetings and activities.
 - Participant Stories and Sound Bites: Including stories or short quotes from participants to provide insight into the potential impact of being involved in the project.
@@ -133,7 +95,9 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
 ## Unfixed Bugs
 - There are no unfixed bugs in the project.
 
-## Fixed Bugs / Challenges Faced 
+## Fixed Bugs 
+
+### Challenges Faced 
 The site was designed with a mobile-first approach, starting with a screen width of 320 pixels. CSS Flexbox was utilized to control element layout, with a vertical column structure for smaller screens and a combination of vertical and horizontal layouts for larger screens.
 
 However, when applying a media query to change the flex-direction property from column to row for the header section, everything worked as expected. But in the about us and our mission sections, elements like headings, paragraphs, and images were not displaying as intended. They appeared on a single line and were squeezed together.
@@ -192,7 +156,8 @@ To deploy the site to GitHub Pages:
 
 Live link to the website https://chrissuttondev.github.io/chester-garden-hub/index.html
 
-
+# Contact
+ -chrissutton1789@gmail.com 
 
 
 
