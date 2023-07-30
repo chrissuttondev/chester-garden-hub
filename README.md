@@ -52,7 +52,7 @@ Chester Garden Hub is a site that aims to inform people and encourage them to be
     <li><details>
     <summary><a href="#validator-settings">Validator Testing</a></summary>
 
-    - [HTML](html)
+    - [HTML](#html)
     - [CSS](#css)
     
     </details></li>
