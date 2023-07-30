@@ -3,12 +3,33 @@
 
 Chester Garden Hub is a site that aims to inform people and encourage them to become involved with a community garden project based in Chester, UK. The site will be targeted toward people in the Chester area who have an interest in gardening, the environment, and their local community. It will be of value to the target demographic by providing them with information on the garden project, details on how they can get involved, and a contact form where they can submit an expression of interest.
 # Table of Contents
-<summary><a href="#ux">UX</a></summary>
+1. <details open>
+    <summary><a href="#ux">UX</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="#goals">Goals</a></summary>
+
+    - [Visitor Goals](#visitor-goals)
+    - [Project Goals](#project-goals)
+    - [User Stories](#user-stories)
+    </details></li>
+
+    <li><details>
+    <summary><a href="#visual-design">Visual Design</a></summary>
+
+    - [Wireframes](#wireframes)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colors](#colors)
+    </details></li>
+    </ul>
+</details>
+    
 
 ## UX
 ## Goals
 ### Visitor Goals
-
 Target Audience 
 - Gardening and food-growing enthusiasts
 - Volunteers seeking opportunities
