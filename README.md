@@ -1,39 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CHESTER GARDEN HUB
+![chester-Garden-Hub](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/dc8e8157-0590-4a9e-ab6e-9ad715b56e96)
 
-Welcome,
+Chester Garden Hub is a site that aims to inform people and encourage them to become involved with a community garden project based in Chester, UK. The site will be targeted toward people in the Chester area who have an interest in gardening, the environment, and their local community. It will be of value to the target demographic by providing them with information on the garden project, details on how they can get involved, and a contact form where they can submit an expression of interest.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX
+### Goals
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+The target audience for Chester Garden Hub:
 
-## Codeanywhere Reminders
+- Gardening and food-growing enthusiasts
+- Volunteers seeking opportunities
+- Community-minded individuals
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+User Goals are: 
 
-`python3 -m http.server`
+- Overview of Chester Community Garden Hub
+- View project facilities' images
+- Learn about involvement opportunities
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Chester Garden Hub achieves its goals through:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- Impactful hero image and tagline on the homepage.
+- Brief "About Us" section explaining the project's start.
+- "Our Mission" section outlining project aspirations.
+- "Our Garden" page showcasing garden features.
+- "Get Involved" page with participation details and a contact form.
 
-`http_server`
+The project goals of Chester Garden Hub are to:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Provide information on the project's background, inception, and objectives.
+- Recruit new members and volunteers.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+User Stories:
 
-To log into the Heroku toolbelt CLI:
+- As a gardening enthusiast, I expect to see photographs of the garden and a comprehensive overview of the offerings available.
+- As someone interested in volunteering at a community project, I expect to find a clear description of the available roles and how I can contribute.
+- I would like to easily follow the project's updates and activities on social media platforms.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Visual Design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Wireframes
 
----
 
-Happy coding!
+
+
+
+### Font
+- The Oswald font was used due to its attractive appearance, easy readability, and suitability for headings
+
+  
