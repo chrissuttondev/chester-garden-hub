@@ -13,6 +13,11 @@ body {
 
 /* header style */
 
+#logo {
+    text-decoration: none;
+    color:#323639;
+}
+
 header {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -322,6 +327,7 @@ legend {
              display: flex;
              flex-direction: row;
              justify-content: space-evenly;
+         }
 
     .p-mission-1 {
         width: 50%;
