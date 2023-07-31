@@ -55,8 +55,7 @@ Chester Garden Hub achieves these goals with:
 - The Oswald font was used due to its attractive appearance, easy readability, and suitability for headings
 
 ### Icons
-- The website utilizes icons from the Font Awesome icon library, specifically in the footer section. These icons serve as clickable links, directing users to the respective 
-  social media pages.
+- The website utilizes icons from the Font Awesome icon library, specifically in the footer section. These icons serve as clickable links, directing users to the respective social media pages.
 
 ### Colors
 Chester Garden Hub's design is minimalist, with garden images providing color and vibrancy. The color scheme includes green for nature and tranquility, pink for vibrancy and optimism, and dark gray for contrast and stability.
@@ -69,29 +68,52 @@ Chester Garden Hub's design is minimalist, with garden images providing color an
  - The responsive header, present on every page of the site, includes a logo and site navigation menu. 
  - The menu provides links to the Home, Our Garden, and Get Involved pages, ensuring smooth and easy navigation between pages without relying on browser back buttons.
 
+![header](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/a4e0fce0-d99d-4a81-a5eb-b9654c5726a8)
+
 ### Hero
 - The hero section of the website features an eye-catching image and a punchy tagline.
 - The primary objective is to convey to the user that this is a community project with 
   immense potential and that they can actively participate and get involved.
 
+![hero](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/df7b9b02-b7ea-4340-ba69-c0b4042cd162)
+
 ### About Us
 - "About Us" gives the project's background and origin.
 
+
+![about](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/0c21a879-d366-413b-b909-a4b61d819599)
+
 ### Our Mission
 - "Our Mission" details the project's goals and aspirations.
+
+
+![mission](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/62d20f89-2792-478a-bf3d-a41c9ef707f5)
 
 ### Footer
 - Includes social media links to Chester Garden Hub's accounts.
 - Offers users the opportunity to follow the project on social media.
 
+
+![footer](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/9148af9e-3a0f-4e82-9936-c46c743e4b0f)
+
 ### Our Garden
 - Provides an overview and images of garden facilities.
 - Explains the purposes and features of different garden parts.
+
+
+![our garden 1](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/7382aaa8-dcb2-4da4-b232-97e36490f4cd)
+
+
+![our garden 2](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/0264e150-2100-4c90-b5f1-63882c8c6154)
 
 ### Get Involved 
 - Provides info on project membership and volunteer opportunities.
 - Features a responsive contact form for expressing interest.
 - Includes validation and asks for the user's name and email address.
+
+
+![form](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/6da9655b-20c9-46e6-bbbd-2c298cf2be99)
+
 
 ### Additional Features
 - Time Table of Events: Adding a timetable of events to inform users about upcoming meetings and activities.
@@ -112,10 +134,6 @@ The site was designed with a mobile-first approach, starting with a screen width
 However, when applying a media query to change the flex-direction property from column to row for the header section, everything worked as expected. But in the about us and our mission sections, elements like headings, paragraphs, and images were not displaying as intended. They appeared on a single line and were squeezed together.
 
 To address this issue, a solution was implemented by adding container divs within the original divs that utilized flex-direction: row. These new container divs only took effect for screen sizes of 768 pixels and above, while the original flexbox with flex-direction: column remained unchanged regardless of screen size. This approach helped achieve the desired horizontal layout when triggered by the media query, resolving the layout display problem.
-
-![code-snippet-before-additional-divs](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/0a9225cf-3967-4833-8dcb-fff2e8f5ddb4)
-
-![code-snippet-after-additional-divs](https://github.com/chrissuttondev/chester-garden-hub/assets/136370848/57b0e321-1955-46ee-a841-023aeb68dd80)
 
 # Technologies Used
 ### Languages
