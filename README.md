@@ -180,7 +180,7 @@ To deploy the site to GitHub Pages:
 - Save and refresh the page.
 - The site link displayed at the top.
 
-Live link to the website https://chrissuttondev.github.io/chester-garden-hub/index.html
+Live link to the website https://chrissuttondev.github.io/chester-garden-hub
 
 # Contact
  chrissutton1789@gmail.com 
